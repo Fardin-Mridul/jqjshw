@@ -1,0 +1,138 @@
+#img1{
+    width: 30%;
+}
+.fardin{
+cursor: pointer;
+background-color: blueviolet;
+color: white;
+}
+.rahman{
+display:none;
+background-color: violet;
+color:white;
+}
+#draggable { 
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+     }
+#gallery { 
+    float: left;
+     width: 65%;
+     min-height: 12em; }
+.gallery.custom-state-active {
+     background: #eee;
+     }
+.gallery li {
+     float: left;
+      width: 96px;
+       padding: 0.4em; 
+       margin: 0 0.4em 0.4em 0;
+        text-align: center;
+     }
+     .gallery li h5 { margin: 0 0 0.4em;
+         cursor: move; }
+.gallery li a { 
+    float: right;
+ }
+.gallery li a.ui-icon-zoomin { 
+    float: left;
+ }
+.gallery li img {
+     width: 100%;
+      cursor: move;
+     }
+    
+#trash {
+     float: right;
+      width: 32%;
+       min-height: 18em;
+        padding: 1%; 
+    }
+#trash h4 { 
+    line-height: 16px; margin: 0 0 0.4em;
+ }
+#trash h4 .ui-icon { 
+    float: left; 
+}
+#trash .gallery h5 {
+     display: none;
+     }
+     #resizable { 
+         width: 150px;
+          height: 150px;
+           padding: 0.5em;
+         }
+     #resizable h3 { 
+         text-align: center;
+         margin: 0;
+         }
+     .ui-resizable-helper {
+          border: 1px dotted gray;
+     }
+     #progressbar {
+        margin-top: 20px;
+      }
+     
+      .progress-label {
+        font-weight: bold;
+        text-shadow: 1px 1px 0 #fff;
+      }
+     
+      .ui-dialog-titlebar-close {
+        display: none;
+      }
+      fieldset {
+        border: 0;
+        margin-left: 300px;
+      }
+      label {
+        display: block;
+        margin: 20px 0 0 0;
+      }
+   
+      #circle {
+        float: left;
+        background: yellow;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+      }
+      #custom-handle {
+        width: 3em;
+        height: 1.6em;
+        top: 50%;
+        margin-top: -.8em;
+        text-align: center;
+        line-height: 1.6em;
+      }
+      label {
+        display: inline-block; width: 5em;
+      }
+      fieldset div {
+        margin-bottom: 2em;
+      }
+      fieldset .help {
+        display: inline-block;
+      }
+      .ui-tooltip {
+        width: 210px;
+      }
+      .toggler { 
+        width: 500px;
+         height: 200px;
+          position: relative;
+         }
+      #button { padding: .5em 1em;
+         text-decoration: none;
+         }
+      #effect { width: 240px;
+         height: 170px;
+          padding: 0.4em;
+           position: relative;
+            background: #fff;
+           }
+      #effect h3 { margin: 0;
+         padding: 0.4em;
+          text-align: center;
+         }
